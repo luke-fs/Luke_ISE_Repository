@@ -15,5 +15,10 @@ class FunktionaleKlasseTest {
 		FunktionaleKlasse xy = new FunktionaleKlasse();
 		assertEquals(5, xy.dividiere(20, 4));
 	}
+	@Test
+	void test3() {
+		FunktionaleKlasse xy = new FunktionaleKlasse();
+		assertEquals(42, xy.multipliziere(14, 3));
+	}
 
 }
