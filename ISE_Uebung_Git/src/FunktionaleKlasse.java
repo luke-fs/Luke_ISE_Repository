@@ -9,22 +9,19 @@ public class FunktionaleKlasse  {
 		System.out.println("Zahl 2: ");
 		double zahl2 = sc.nextInt();
 		
-		addiere(zahl1,zahl2);
-		multipliziere(zahl1,zahl2);
-		dividiere(zahl1,zahl2);
 	}
-	public static void addiere(double x, double y) {
+	public double addiere(double x, double y) {
 		double erg = x+y;
-		System.out.println(erg);
+		return erg;
 	}
 	
-	public static void multipliziere(double x, double y) {
+	public double multipliziere(double x, double y) {
 		double erg = x*y;
-		System.out.println(erg);
+		return erg;
 	}
-	public static void dividiere(double x, double y) {
+	public double dividiere(double x, double y) {
 		double erg = x/y;
-		System.out.println(erg);
+		return erg;
 	}
 }
 
