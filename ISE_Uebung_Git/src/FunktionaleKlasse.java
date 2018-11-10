@@ -9,6 +9,11 @@ public class FunktionaleKlasse  {
 		System.out.println("Zahl 2: ");
 		double zahl2 = sc.nextInt();
 		
+		FunktionaleKlasse obj = new FunktionaleKlasse();
+		double erg = obj.addiere(zahl1,zahl2);
+		System.out.println(erg);
+		
+		
 	}
 	public double addiere(double x, double y) {
 		double erg = x+y;
